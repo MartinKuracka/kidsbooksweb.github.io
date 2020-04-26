@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+body {
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 34px;
+
+}
+
+.d-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.main {
+	background-image: url(img/bck1.png);
+	position: absolute;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header {
+	opacity: 0.9;
+	justify-content: center;
+	text-align: center;
+	max-width: 1200px;
+	margin: 5em auto 5em auto;
+	background-color: #DCBD90;
+}
