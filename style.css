@@ -7,9 +7,24 @@ body {
 }
 
 h1 {
-	font-family: 'Special Elite', cursive;
 	font-size: 34px;
+}
 
+h3 {
+	font-size: 27px;
+	margin: 5px auto 5px auto;
+}
+
+h4 {
+	font-size: 21px;
+	margin: 0px 30px;
+}
+
+.hr {
+	width:80%;
+	height: 5px;
+	background-color: black;
+	margin: 25px auto;
 }
 
 .d-flex {
@@ -22,8 +37,26 @@ h1 {
 	justify-content: center;
 	width: 100%;
 	flex-direction: column;
+	box-shadow: 5px 10px 10px black;
+	background-color: #DCBD90;
 }
 
+.w-1200 {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.op-09 {
+	opacity: 0.9;
+}
+
+.elite-font {
+	font-family: 'Special Elite', cursive;
+}
+
+.indie-font {
+	font-family: cursive;
+}
 .main {
 	background-image: url(img/bck1.png);
 	position: absolute;
@@ -32,10 +65,27 @@ h1 {
 }
 
 .header {
-	opacity: 0.9;
 	justify-content: center;
 	text-align: center;
 	max-width: 1200px;
 	margin: 5em auto 5em auto;
 	background-color: #DCBD90;
+}
+
+.h-500 {
+	height: 500px;
+}
+
+.m-b-5 {
+	margin-bottom: 50px;
+}
+/*========== footer ============*/
+
+.footer {
+	margin: 0px auto;
+	max-width: 1200px;
+	min-height: 200px;
+	background-color: #B47211;
+	bottom: 0px;
+	position: relative;
 }
