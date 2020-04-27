@@ -4,15 +4,19 @@
 
 body {
 	width: 100%;
+	font-family: cursive;
 }
 
 h1 {
 	font-size: 34px;
+	padding: 15px;
+	font-weight: 700;
 }
 
 h3 {
 	font-size: 27px;
 	margin: 5px auto 5px auto;
+	font-weight: 600;
 }
 
 h4 {
@@ -50,13 +54,14 @@ h4 {
 	opacity: 0.9;
 }
 
+.p-20 {
+	padding: 20px;
+}
+
 .elite-font {
 	font-family: 'Special Elite', cursive;
 }
 
-.indie-font {
-	font-family: cursive;
-}
 .main {
 	background-image: url(img/bck1.png);
 	position: absolute;
