@@ -83,6 +83,18 @@ h4 {
 	background-attachment: fixed;
 }
 
+.aside {
+	position:fixed;
+	top: 50px;
+	margin-left: 0px;
+	flex-direction: column;
+	z-index: 2;
+}
+
+.aside-email {
+
+}
+
 .m-w-500 {
 	min-width: 500px;
 }
