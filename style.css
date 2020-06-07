@@ -41,7 +41,8 @@ h4 {
 	width: 100%;
 	flex-direction: column;
 	box-shadow: 5px 10px 10px black;
-	background-color: #DCBD90;
+/*	background-color: #DCBD90;*/
+	background: linear-gradient(to bottom, #ffff80, #978a6d)
 }
 
 .w-1200 {
