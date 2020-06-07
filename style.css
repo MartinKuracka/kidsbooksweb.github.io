@@ -88,8 +88,8 @@ h4 {
 	text-align: center;
 	max-width: 1200px;
 	margin: 5em auto 5em auto;
-	/*background-color: #DCBD90;*/
-	background-color: black;
+	/*background-color: #574c4c;*/
+	background: linear-gradient(to bottom, #574c4c, #4b4b44)
 }
 
 .ml6 {
