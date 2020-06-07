@@ -64,6 +64,14 @@ h4 {
 	font-weight: 600;
 }
 
+/* ------ main content ---------*/
+
+.title_img {
+	position: flex;
+	align-content: center;
+	margin-top: -90px;
+}
+
 .main {
 	background-image: url(img/bck1.png);
 	position: absolute;
