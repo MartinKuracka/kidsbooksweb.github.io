@@ -76,6 +76,13 @@ h4 {
 	z-index: 2;
 }
 
+.animation {
+	animation-name: myanime;
+  	animation-duration: 1s;
+  	animation-delay: 2s;
+   /*	animation-iteration-count:infinite;*/
+}
+
 .main {
 	background-image: url(img/bck1.png);
 	position: absolute;
@@ -147,7 +154,17 @@ h4 {
 	position: relative;
 }
 
-/* ----- media queries ----- */
+/* ----- media queries & others ----- */
+
+@keyframes myanime {
+	0% {top:0px;}
+	25% {top:30px;}
+	50% {top:-40px;}
+	75% {top:10px;}
+	90% {top:-10px;}
+	100% {top:0px;}
+
+}
 
 @media only screen and (max-width: 500px) {
 
