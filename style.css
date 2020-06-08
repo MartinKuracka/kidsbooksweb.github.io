@@ -83,6 +83,12 @@ h4 {
    /*	animation-iteration-count:infinite;*/
 }
 
+.cont-anim {
+	animation-name: cont-anime;
+  	animation-duration: 1.2s;
+  	animation-delay: 5s;
+}
+
 .main {
 	background-image: url(img/bck1.png);
 	position: absolute;
@@ -96,10 +102,7 @@ h4 {
 	margin-left: 0px;
 	flex-direction: column;
 	z-index: 2;
-}
-
-.aside-email {
-
+	opacity:1;
 }
 
 .m-w-500 {
@@ -163,7 +166,12 @@ h4 {
 	75% {top:10px;}
 	90% {top:-10px;}
 	100% {top:0px;}
+}
 
+@keyframes cont-anime {
+	0% {width: 50px;}
+	80% {width: 100px;}
+	100% { width: 50px;}
 }
 
 @media only screen and (max-width: 500px) {
