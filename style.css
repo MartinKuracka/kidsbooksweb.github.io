@@ -17,8 +17,8 @@ h1 {
 h2 {
 	font-size: 25px;
 	padding: 10px 10px 0px 10px;
-	font-family: 'Luckiest Guy', cursive;
 	margin-bottom: 0px;
+	font-weight: 600;
 }
 
 h3 {
@@ -61,6 +61,11 @@ h4 {
 	margin: 0px auto;
 }
 
+.w-100 {
+	width: 100%;
+	margin: 0px auto;
+}
+
 .op-09 {
 	opacity: 0.9;
 }
@@ -76,6 +81,11 @@ h4 {
 .elite-font {
 	font-family:  'Luckiest Guy', cursive;
 	font-weight: 600;
+}
+
+.car-pic {
+	max-width: 30vw;
+	height: auto;
 }
 
 /* ------ main content ---------*/
@@ -208,6 +218,23 @@ h4 {
 	100% {top:0px;}
 }
 
+@media only screen and (max-width: 1200px) {
+	.car-pic {
+		max-width: 40vw;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.car-pic {
+		max-width: 50vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.car-pic {
+		max-width: 65vw;
+	}
+}
 
 @media only screen and (max-width: 500px) {
 	.p-b-120 {
@@ -223,3 +250,4 @@ h4 {
 		line-height: 1;
 	}
 }
+
