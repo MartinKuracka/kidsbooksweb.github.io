@@ -232,14 +232,16 @@ h4 {
 
 @media only screen and (max-width: 600px) {
 	.car-pic {
-		max-width: 65vw;
+		max-width: 70vw;
+	}
+	.p-b-120 {
+		padding-bottom: 100px;
+		margin-bottom: 0px;
+		line-height: 1;
 	}
 }
 
 @media only screen and (max-width: 500px) {
-	.p-b-120 {
-		padding-bottom: 80px;
-	}
 	h5 {
 		font-size: 19px;
 		margin-bottom: 0px;
