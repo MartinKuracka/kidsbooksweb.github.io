@@ -1,4 +1,4 @@
-var textWrapper = document.querySelector('.letters');
+let textWrapper = document.querySelector('.letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letters'>$&</span>");
 
 anime.timeline({loop: true})
@@ -15,3 +15,12 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 2000
   });
+
+let event = () => {
+    alert("eventlistener activated")
+  };
+
+  let pokk = document.getElementById('pokus');
+  pokk.addEventListener("mouseover", event);
+
+  

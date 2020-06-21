@@ -5,33 +5,35 @@
 body {
 	width: 100%;
 	font-family: arial;
+	background-color: #363434;
 }
 
 h1 {
 	font-size: 38px;
 	padding: 15px;
 	font-weight: 700;
-	opacity: 1;
+	color: #FFFCFC;
 }
 
 h2 {
 	font-size: 25px;
 	padding: 10px 10px 0px 10px;
 	margin-bottom: 0px;
-	font-weight: 600;
+	font-weight: 200;
+	color: #FFFCFC;
 }
 
 h3 {
 	font-size: 27px;
 	margin: 5px auto 5px auto;
-	font-weight: 600;#
-	opacity: 1;
+	font-weight: -100;
+	color: #FFFCFC;
 }
 
 h4 {
 	font-size: 21px;
 	margin: 0px 30px;
-	opacity: 1;
+	color: #FFFCFC;
 }
 
 .hr {
@@ -53,7 +55,7 @@ h4 {
 	flex-direction: column;
 	box-shadow: 5px 10px 10px black;
 /*	background-color: #DCBD90;*/
-	background: linear-gradient(to bottom, #ffff80, #978a6d)
+	background: linear-gradient(to bottom, #2b8291, #1d1616 )
 }
 
 .w-1200 {
@@ -80,7 +82,7 @@ h4 {
 
 .elite-font {
 	font-family:  'Luckiest Guy', cursive;
-	font-weight: 600;
+	font-weight: 200;
 }
 
 .car-pic {
@@ -92,9 +94,15 @@ h4 {
 
 .title_img {
 	position:absolute;
-	margin-top: 30px;
-	opacity: 1;
-	z-index: 2;
+	background-size: cover;
+	opacity: 0.2;
+	z-index: -4;
+}
+
+.logo {
+	position: absolute;
+	margin-top: -200px;
+	max-width: 250px;
 }
 
 .animation {
@@ -140,7 +148,6 @@ h4 {
 
 
 .main {
-	background-image: url(img/bck1.png);
 	position: absolute;
 	background-size: cover;
 	background-attachment: fixed;
@@ -156,7 +163,6 @@ h4 {
 	margin-left: 0px;
 	flex-direction: column;
 	z-index: 2;
-	opacity:1;
 }
 
 .header {
@@ -218,18 +224,31 @@ h4 {
 	100% {top:0px;}
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
 	.car-pic {
 		max-width: 40vw;
 	}
 }
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1200px) {
 	.car-pic {
-		max-width: 50vw;
+		max-width: 45vw;
 	}
 }
 
+@media only screen and (max-width: 900px) {
+	.car-pic {
+		max-width: 55vw;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.logo {
+		margin-top: -250px;
+		max-width: 180px;
+	}
+}
 @media only screen and (max-width: 600px) {
 	.car-pic {
 		max-width: 70vw;
@@ -238,6 +257,10 @@ h4 {
 		padding-bottom: 100px;
 		margin-bottom: 0px;
 		line-height: 1;
+	}
+	.logo {
+		margin-top: -250px;
+		max-width: 140px;
 	}
 }
 
