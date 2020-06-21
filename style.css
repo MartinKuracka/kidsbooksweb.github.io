@@ -54,11 +54,10 @@ h4 {
 	width: 100%;
 	flex-direction: column;
 	box-shadow: 5px 10px 10px black;
-/*	background-color: #DCBD90;*/
 	background: linear-gradient(to bottom, #6995AD, #456779);
 	-webkit-border-radius: 24% 0px 0px 0px;
--moz-border-radius: 24% 0px 0px 0px;
-border-radius: 24% 0px 0px 0px;
+	-moz-border-radius: 24% 0px 0px 0px;
+	border-radius: 24% 0px 0px 0px;
 }
 
 .w-1200 {
@@ -108,6 +107,7 @@ border-radius: 24% 0px 0px 0px;
 .logo {
 	position: absolute;
 	margin-top: -200px;
+	margin-left: -15px;
 	max-width: 250px;
 }
 
@@ -115,27 +115,19 @@ border-radius: 24% 0px 0px 0px;
 	animation-name: myanime;
   	animation-duration: 1s;
   	animation-delay: 2s;
-   /*	animation-iteration-count:infinite;*/
+ }
+
+@keyframes myanime {
+	0% {margin-top:-200px;}
+	25% {margin-top:-170px;}
+	50% {margin-top:-240px;}
+	75% {margin-top:-190px;}
+	90% {margin-top:-210px;}
+	100% {margin-top:-200px;}
 }
-
-/*.op-delay {
-	animation-name: opac-delay;
-  	animation-duration: 5s;
-}
-
-@keyframes opac-delay {
-	
-}*/
-
 .cont-anim {
 	animation-name: cont-anime;
   	animation-duration: 6s;
- /* 	animation-delay: 5s;*/
-}
-
-.book-name {
-	margin-top: 10px;
-	margin-bottom: -5px;
 }
 
 @keyframes cont-anime {
@@ -152,6 +144,10 @@ border-radius: 24% 0px 0px 0px;
 	100% {width: 50px;}
 }
 
+.book-name {
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
 
 .main {
 	position: absolute;
@@ -220,15 +216,6 @@ border-radius: 24% 0px 0px 0px;
 }
 
 /* ----- media queries & others ----- */
-
-@keyframes myanime {
-	0% {top:0px;}
-	25% {top:30px;}
-	50% {top:-40px;}
-	75% {top:10px;}
-	90% {top:-10px;}
-	100% {top:0px;}
-}
 
 @media only screen and (max-width: 1400px) {
 	.car-pic {
