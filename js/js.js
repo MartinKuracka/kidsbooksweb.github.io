@@ -16,11 +16,11 @@ anime.timeline({loop: true})
     delay: 2000
   });
 
-let event = () => {
-    alert("eventlistener activated")
-  };
+// let event = () => {
+//     alert("eventlistener activated")
+//   };
 
-  let pokk = document.getElementById('pokus');
-  pokk.addEventListener("mouseover", event);
+//   let pokk = document.getElementById('pokus');
+//   pokk.addEventListener("mouseover", event);
 
   
