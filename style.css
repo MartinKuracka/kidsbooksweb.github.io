@@ -118,7 +118,7 @@ h4 {
 
 .logo {
 	position: absolute;
-	margin-top: -200px;
+	margin-top: -400px;
 	margin-left: -15px;
 	max-width: 250px;
 }
@@ -130,12 +130,12 @@ h4 {
  }
 
 @keyframes myanime {
-	0% {margin-top:-200px;}
-	25% {margin-top:-170px;}
-	50% {margin-top:-240px;}
-	75% {margin-top:-190px;}
-	90% {margin-top:-210px;}
-	100% {margin-top:-200px;}
+	0% {margin-top:-400px;}
+	25% {margin-top:-370px;}
+	50% {margin-top:-440px;}
+	75% {margin-top:-390px;}
+	90% {margin-top:-410px;}
+	100% {margin-top:-400px;}
 }
 .cont-anim {
 	animation-name: cont-anime;
