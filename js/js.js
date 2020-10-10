@@ -5,22 +5,22 @@ anime.timeline({loop: true})
   .add({
     targets: '.letters',
     scale: [0, 1],
-    duration: 1500,
+    duration: 2500,
     elasticity: 600,
     delay: (el, i) => 45 * (i+1)
   }).add({
-    targets: '.ml9',
+    targets: '.letters',
     opacity: 0,
-    duration: 4000,
+    duration: 3000,
     easing: "easeOutExpo",
-    delay: 2000
+    delay: 5000
   });
 
 // let event = () => {
 //     alert("eventlistener activated")
 //   };
 
-//   let pokk = document.getElementById('pokus');
+// let pokk = document.getElementById('pokus');
 //   pokk.addEventListener("mouseover", event);
 
   

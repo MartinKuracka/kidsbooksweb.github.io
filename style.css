@@ -201,7 +201,7 @@ h4 {
   padding-top: 0.2em;
   padding-right: 0.05em;
   padding-bottom: 0.1em;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .letters {
